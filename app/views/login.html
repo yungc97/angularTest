@@ -1,0 +1,12 @@
+<br>
+<br>
+<h1>로그인</h1>
+email와 password 를 입력 후 sign in 버튼을 클릭하여 주십시오.<br><br><br>
+
+<input type="text" class="form-control" name="email" placeholder="Email" required="required" ng-model="form_data.email"><br>
+<input type="password" class="form-control" name="password" placeholder="Password" required="required" ng-model="form_data.pwd"><br>
+<button type="button" ng-click="onSubmit();" class="btn btn-xlg btn-primary btn-block text-bold" style="font-size:20px">Sign In</button>
+<br><br>
+비밀번호를 잊어버리셨나요???
+<button type="button" ng-click="findpwd();" class="btn btn-xlg btn-danger btn-block text-bold" style="font-size:20px">비밀번호 찾기</button>
+

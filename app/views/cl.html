@@ -1,0 +1,17 @@
+<h3>문화생활비 조회</h3>
+
+<div ng-repeat="data in dataObj">
+  <ul>
+    <li>이름: {{data.name}}</li>
+    <li>소속: {{data.team}</li>
+    <li>사용달: {{data.month}}</li>
+    <li>금액: {{data.amount}}</li>
+  </ul>
+</div>
+
+<form>
+  <input type="text" ng-model="data.name" placeholder="이름 검색">
+  <button ng-sumbit>검색</button>
+</form>
+<br><br>
+<button ng-click="">초기화</button>
